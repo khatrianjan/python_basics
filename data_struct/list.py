@@ -44,10 +44,50 @@
 # print(f"The minimum  no. is: {min(Elements)}")
 ###################################################################
 
+# 5) sort a list of number in ascendind order.
+"""use list.sort() or sorted(list)"""
 
+# Elements=[]
+# for i in range(5):
+#     num = int(input("Type a number: "))
+#     x = Elements.append(num)
+# print(Elements)
+# print(f"The ascending order of the list is: {sorted(Elements)}" )
+###############################################################################
 
+# 6)create a list of fruits .ask  user to enter fruits and check if its in the lis
+"""use in keywords to check membership"""
+# print("create a list of fruits. ")
+# fruits=[str]
+# for i in range(4):
+#     for check in fruits:
+#         ad = str(input("Enter the fruits name: "))
+#         fruits.append(ad)
+#         break
+# print("Type fruit name,U wanna check if it is in List or not.")
+# x = str(input(""))
+# if x in fruits:
+#     print({x} ,"is in the list")
+#     print("u r awesome in guessing.")
 
+#####################################################################
+# 7) reverse the elements of a list without using reverse() function
+"""use slicing list[::-1] or looop to reverse manually"""
 
+# Elements=[]
+# reverse_list = []
+# for i in range(5):
+#     num = int(input("Type a number: "))
+#     x = Elements.append(num)
+# print (Elements)
 
+"""slicing technique to reverse"""
 
+# reverse_list = Elements[::-1]
+# print(reverse_list)
 
+"""to reverse item manually using loop"""
+
+# for item  in Elements:             
+#     reverse_list. insert(0, item)
+# print(reverse_list)
